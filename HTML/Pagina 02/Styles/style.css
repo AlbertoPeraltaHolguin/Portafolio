@@ -1,0 +1,236 @@
+
+.inicio{
+    text-align:center;
+    background-color: #816498;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(255,255,255,1) 2%, rgba(255,255,255,1) 98%, rgba(0,0,0,1) 98%);}
+/*SEGMENTO DE ENCABEZADO E INICIO*/
+.logo{
+    position: relative;
+    bottom: 50px;
+    
+    width: 98px;
+    height: 98px
+    ;
+    align-items: center;
+    border-radius: 100px;
+    border-style:groove;
+}
+.video{
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+    opacity: 100%;
+}
+
+.capa_opaca{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+
+    width: 100%;
+    height: 720px;
+    background-color: #ffffff;
+    opacity: 20%;
+}
+
+.titulo{
+    background-color: #000000;
+    color: #d3b0e7;
+    font-size: 30px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;text-align: center;
+}
+
+.presentacion {
+  font-family: "Raleway", sans-serif;
+  font-size: 100px;
+  font-family: "Kode Mono", monoespaciado;
+  font-optical-sizing: auto;
+  font-weight: peso;
+  font-style: normal;
+
+  position:absolute;
+  top: 50%;
+  left: 48%;
+}
+
+    /*BARRA DE NAVEGACION*/
+.barra_navegacion{
+    position: relative;
+    top: 600px;
+    height: 100%;
+    
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    list-style: none;
+    padding: 0;
+    background-color: #000;
+    text-align:center;
+}
+.a{
+    font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-family: "Kode Mono", monoespaciado;
+  font-optical-sizing: auto;
+  font-weight: peso;
+  font-style: normal;
+    background-color: #000;
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+}
+.a:hover{
+    
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* SEGEMNTO DE CANALES*/
+.segmento_youtube{
+    position: absolute;
+    top: 800px;
+    left: 65%;
+    
+    background-color: #c40c0c;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100px;
+    border-color: #000000;
+    border-style:double;
+    margin: auto;
+
+    cursor: pointer;
+}
+.segmento_youtube:hover{
+    transition: all 0.6s ease;
+    background-color: #c40c0c;
+    width: 30%;
+    height: 100px;
+
+    background-color: #f7b2b2;
+    border-color: #c40c0c;
+}
+
+.segmento_twich{
+    position: absolute;
+    top: 800px;
+    right: 65%;
+
+    background-color: #900dc4;
+    width:   100px;
+    height: 100px;
+
+    border-radius: 100px;
+        border-color: #000000;
+    border-style:double;
+    margin: auto;
+    cursor: pointer;
+}
+.segmento_twich:hover{
+    background-color: #900dc4;
+    width: 30%;
+    height: 100px;
+    
+    transition: all 0.6s ease;
+    border-radius: 100px;
+        
+    border-style:double;
+    margin: auto;
+    cursor: pointer;
+    background-color: #d3b0e7;
+    border-color: #730e9b;
+}
+.segmento_insta{
+    position: absolute;
+    top: 850px;
+    right: 47%;
+
+    background: rgb(255, 255, 255);
+    width:   100px;
+    height: 100px;
+
+    border-radius: 100px;
+    background: linear-gradient(211deg, rgba(138,58,185,1) 4%, rgba(76,104,215,1) 12%, rgba(205,72,107,1) 25%, rgba(205,72,107,1) 30%, rgba(252,204,99,1) 52%, rgba(188,42,141,1) 66%, rgba(233,89,80,1) 87%, rgba(251,173,80,1) 100%);
+    border-style: calc();
+    border-color: linear-gradient(211deg, rgba(138,58,185,1) 4%, rgba(76,104,215,1) 12%, rgba(205,72,107,1) 25%, rgba(205,72,107,1) 30%, rgba(252,204,99,1) 52%, rgba(188,42,141,1) 66%, rgba(233,89,80,1) 87%, rgba(251,173,80,1) 100%);
+
+    border-style:double;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+
+
+/* SEGMENTOS DE CONTENIDO*/
+.segmento_m_completo{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-family: "Kode Mono", monoespaciado;
+    font-optical-sizing: auto;
+    font-weight: peso;
+    font-style: normal;
+    
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    margin: auto;
+
+    background-color: #f3c589;
+    width: 500px;
+    height: 500px;
+
+    border-style: double;
+    border-color: #000;
+    border-radius: 50px;
+    text-align: center;
+}
+.segmento_musica{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-family: "Kode Mono", monoespaciado;
+    font-optical-sizing: auto;
+    font-weight: peso;
+    font-style:normal;
+    
+    position: absolute;
+    top: 25px;
+    right:  75%;
+    margin: auto;
+
+    background-color: #d4c8b9;
+    width: 500px;
+    height: 500px;
+    border-style: double;
+    border-color: #000;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-family: "Kode Mono", monoespaciado;
+    font-optical-sizing: auto;
+    font-weight: peso;
+    font-style:normal;
+    text-align: right;
+}

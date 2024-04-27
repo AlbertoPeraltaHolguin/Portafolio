@@ -1,0 +1,11 @@
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\bin\Debug\Juego_V01.exe.config
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\bin\Debug\Juego_V01.exe
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\bin\Debug\Juego_V01.pdb
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\obj\Debug\Juego_V01.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\obj\Debug\Juego_V01.csproj.SuggestedBindingRedirects.cache
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\obj\Debug\Juego_V01.Form1.resources
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\obj\Debug\Juego_V01.Properties.Resources.resources
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\obj\Debug\Juego_V01.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\obj\Debug\Juego_V01.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\obj\Debug\Juego_V01.exe
+C:\Users\usuario\Desktop\OTROS\VisualStudios Trabajos\Juego_V01\Juego_V01\obj\Debug\Juego_V01.pdb

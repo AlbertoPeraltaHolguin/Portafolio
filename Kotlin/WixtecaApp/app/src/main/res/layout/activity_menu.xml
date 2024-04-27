@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_error"
+    android:backgroundTint="#4BBF91"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="391dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="Menu de actividades"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/ic_logotipo_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButtonWeb"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ovalo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@mipmap/ic_searchweb_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMail"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/ovalo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@mipmap/ic_gmail_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEdad"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ovalo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonWeb"
+        app:srcCompat="@mipmap/ic_edad_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButtonLlamada"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ovalo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonEdad"
+        app:srcCompat="@mipmap/ic_calling_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCamera"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/ovalo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonCalculadora"
+        app:srcCompat="@mipmap/ic_camera_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCalculadora"
+        android:layout_width="115dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/ovalo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMail"
+        app:srcCompat="@mipmap/ic_calculador_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
